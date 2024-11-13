@@ -11,49 +11,48 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "countEvenNumbers",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_author",
-						"type": "string"
 					}
 				],
-				"name": "addBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_id",
+						"name": "_number",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_author",
-						"type": "string"
 					}
 				],
-				"name": "addMyBook",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "isEvenNumber",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -64,65 +63,25 @@
 						"type": "uint256"
 					}
 				],
-				"name": "books",
+				"name": "numbers",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "author",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "myBooks",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "author",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "names",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -157,11 +116,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0x4d869abc94fa2f710f20980b536ea6c338e74ff3e6d9c426a693d7b2a3abb1b7",
+			"keccak256": "0xce2f0f2a644ed3c4fef55941902d914ad49e1cc08b4c2f42bcffdc72ef6656ea",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0e3bf3b287ba7c1fcae6dcbd6343085ec35415106223c12c53aee782883cb181",
-				"dweb:/ipfs/QmaeXEMYdzc6XH6h1ZoMQkSdpBzLRBTJJtGoXWhdJWxsQo"
+				"bzz-raw://b350fc2b43bc015278be710a4f1dc8defa1be7bfdf60054a202cc2e8109592fa",
+				"dweb:/ipfs/QmdfphsQJRynML79ySqPb3oyHxjmidrja8D9R3vYJK7USC"
 			]
 		}
 	},
